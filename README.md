@@ -3,14 +3,14 @@
 This Chatbot is a Python script that demonstrates the usage of the LlamaIndex library to create an AI-powered chatbot. The chatbot is designed to provide responses to user queries based on the content stored in the 'data' directory.
 
 # Table of Contents
-__**Introduction**__
-Table of Contents
-Requirements
-Usage
-Features
-License
-Requirements
-To run the ASOS Premier Chatbot, you'll need the following:
+**Introduction**
+**Table of Contents**
+**Requirements**
+**Usage**
+**Features**
+**License**
+**Requirements**
+To run the chatbot, you'll need the following:
 
 Python 3.x
 LlamaIndex library (Install with pip install llama_index)

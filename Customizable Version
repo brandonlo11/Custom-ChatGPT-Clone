@@ -1,0 +1,27 @@
+# If you already have an existing Python script or Jupyter Notebook with the base code, you can simply add the new code to the same file or notebook. 
+# If you're starting a new script or project, you can append this code to the base version to create a standalone script.
+
+# Set up your LLM
+from llama_index import LLMPredictor, GPTSimpleVectorIndex, PromptHelper
+
+# define LLM
+llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.1, model_name="text-davinci-002"))
+
+# define prompt helper
+# set maximum input size
+max_input_size = 4096
+# set number of output tokens
+num_output = 256
+# set maximum chunk overlap
+max_chunk_overlap = 20
+prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
+
+# Create a custom LLM index
+custom_LLM_index = GPTSimpleVectorIndex(
+    documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper
+)
+
+# Query your index
+# Replace "Question" with question you would like to ask"
+response = custom_LLM_index.query("Question")
+print(response)

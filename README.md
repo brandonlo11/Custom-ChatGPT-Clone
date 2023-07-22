@@ -7,8 +7,7 @@ This Chatbot is a Python script that demonstrates the usage of the LlamaIndex li
 **Table of Contents**  
 **Requirements**  
 **Usage**  
-**Features**  
-**License**  
+**Features**   
 
 # Requirements  
 

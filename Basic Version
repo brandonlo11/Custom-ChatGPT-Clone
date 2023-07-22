@@ -1,0 +1,22 @@
+# Install required libraries
+!pip install llama_index
+!pip install langchain
+
+# Import required libraries
+import os
+from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex
+
+# Set OpenAI API key
+# Replace "APIKEY" with actual API key
+os.environ['OPENAI_API_KEY'] = "APIKEY"
+
+# Load data into 'Documents' a custom type by LlamaIndex
+# Replace "path" with path to data
+documents = SimpleDirectoryReader('./path').load_data()
+
+# Create an index of your documents
+index = GPTSimpleVectorIndex(documents)
+
+# Query your index
+response = index.query("What do you think of Facebook's LLaMa?")
+print(response)

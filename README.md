@@ -1,10 +1,9 @@
 # Custom-ChatGPT-Clone
 
-ASOS Premier Chatbot
-The ASOS Premier Chatbot is a Python script that demonstrates the usage of the LlamaIndex library to create an AI-powered chatbot. The chatbot is designed to provide responses to user queries based on the content stored in the 'data' directory.
+This Chatbot is a Python script that demonstrates the usage of the LlamaIndex library to create an AI-powered chatbot. The chatbot is designed to provide responses to user queries based on the content stored in the 'data' directory.
 
-Table of Contents
-Introduction
+# Table of Contents
+__**Introduction**__
 Table of Contents
 Requirements
 Usage

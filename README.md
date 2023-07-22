@@ -3,13 +3,13 @@
 This Chatbot is a Python script that demonstrates the usage of the LlamaIndex library to create an AI-powered chatbot. The chatbot is designed to provide responses to user queries based on the content stored in the 'data' directory.
 
 # Table of Contents
-**Introduction**
-**Table of Contents**
-**Requirements**
-**Usage**
-**Features**
-**License**
-**Requirements**
+**Introduction**  
+**Table of Contents**  
+**Requirements**  
+**Usage**  
+**Features**  
+**License**  
+**Requirements**  
 To run the chatbot, you'll need the following:
 
 Python 3.x
